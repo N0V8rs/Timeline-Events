@@ -12,6 +12,5 @@ public class timeLineTrigger : MonoBehaviour
     private void OnTriggerEnter(Collider other) // Adds the trigger to enter 
     {
         TimelineTrigger.Play();// Plays the timeline ( public PlayableDirector "name of the timeline"
-
     }
 }
